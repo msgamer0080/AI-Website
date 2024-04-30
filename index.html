@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="ASSETS/IMAGES/icon.png">
+<title>AI</title>
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="index.html"> <img src="ASSETS/IMAGES/icon.png" style="height:70px;width:auto"> </a></li>
+    <li><a href="#">ABOUT US</a>
+    <li><a href="#">INDUSTRIES</a>
+      <div class="industries"><ul>
+        <li><a href="#">Aerospace & Defense</a></li>
+        <li><a href="#">Agriculture</a></li>
+        <li><a href="#">Automotive & Assembly</a></li>
+        <li><a href="#">Chemicals</a></li>
+        <li><a href="#">Consumer Packaged Goods</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Electric Power & Natural Gas</a></li>
+        <li><a href="#">Engineering, Construction & Building Materials</a></li>
+        <li><a href="#">Financial Services</a></li>
+        <li><a href="#">Healthcare</a></li>
+        <li><a href="#">Industrials & Electronics</a></li>
+        <li><a href="#">Life Sciences</a></li>
+        <li><a href="#">Metals & Mining</a></li>
+        <li><a href="#">Oil & Gas</a></li>
+        <li><a href="#">Packaging & Paper</a></li>
+        <li><a href="#">Private Equity & Principal Investors</a></li>
+        <li><a href="#">Public Sector</a></li>
+        <li><a href="#">Retail</a></li>
+        <li><a href="#">Semiconductors</a></li>
+        <li><a href="#">Social Sector</a></li>
+        <li><a href="#">Technology, Media & Telecommunications</a></li>
+        <li><a href="#">Real Estate</a></li>
+        <li><a href="#">Travel, Logistics & Infrastructure</a></li>
+      </ul></div>
+    </li>
+    <li><a href="#">CAPABLITIES</a>
+      <div class="capablities"><ul>
+        <li><a href="#">Digital</a></li>
+        <li><a href="#">Growth, Marketing & Sales</a></li>
+        <li><a href="#">Implementation</a></li>
+        <li><a href="#">M&A</a></li>
+        <li><a href="#">Operations</a></li>
+        <li><a href="#">People & Organizational Performance</a></li>
+        <li><a href="#">Risk & Resilience</a></li>
+        <li><a href="#">Strategy & Corporate Finance</a></li>
+        <li><a href="#">Sustainability</a></li>
+        <li><a href="#">Transformation</a></li>
+      </ul></div>
+    </li>
+    <li><a href="#">FEATURED INSIGHTS</a>
+      <div class="insights"><ul>
+        <li><a href="#">Agile Organizations</a></li>
+        <li><a href="#">Artificial Intelligence & Gen AI</a></li>
+        <li><a href="#">Business Resilience</a></li>
+        <li><a href="#">Diversity and Inclusion</a></li>
+        <li><a href="#">Climate Change</a></li>
+        <li><a href="#">Future of Asia</a></li>
+        <li><a href="#">Inflation</a></li>
+        <li><a href="#">Speeding up in a slowing economy</a></li>
+        <li><a href="#">Sustainable, Inclusive Growth</a></li>
+        <li><a href="#">The Rise of Quantum Computing</a></li>
+        <li><a href="#">Well-being in the Workplace</a></li>
+      </ul></div>
+    </li>
+    <li><a href="#">CAREERS</a>
+      <div class="career"><ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Interviewing</a></li>
+        <li><a href="#">Our People</a></li>
+        <li><a href="#">Students</a></li>
+        <li><a href="#">Tech Careers</a></li>
+        <li><a href="#">Careers Beyond Consulting</a></li>
+        <li><a href="#"></a>Experienced Professionals</li>
+      </ul></div>
+    </li>
+    <li><a href="#" id="showFormLink">CONTACT US</a></li>
+    <ul>
+      <div class="overlay" id="overlay">
+          <div class="popup-form">
+            <button id="closeFormBtn">X</button>
+              <h2>CONTACT INFOMATION</h2>
+              <form action="data.php" method="post">
+                  <label for="name">Name:</label><br>
+                  <input type="text" id="name" name="name"><br>
+                  <label for="email">Email:</label><br>
+                  <input type="email" id="email" name="email"><br>
+                  <label for="phone">Phone:</label><br>
+                  <input type="phone" id="phone" name="phone"><br>
+                  <label for="query">Query:</label><br>
+                  <input type="textarea" id="query" name="query"><br>
+                  <input type="submit" value="Submit">
+              </form>
+          </div>
+      </div></ul>
+    
+<script>
+  // Get the link and overlay elements
+  const showFormLink = document.getElementById('showFormLink');
+  const overlay = document.getElementById('overlay');
+  const closeFormBtn = document.getElementById('closeFormBtn');
+
+  // Add event listener to the link
+  showFormLink.addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent the default link behavior
+      overlay.style.display = 'block'; // Show the overlay
+  });
+
+  // Add event listener to the close button
+  closeFormBtn.addEventListener('click', function() {
+      overlay.style.display = 'none'; // Hide the overlay when close button is clicked
+  });
+</script>
+
+    
+  </ul>
+</nav>
+
+</body>
+</html>
