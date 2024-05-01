@@ -59,7 +59,7 @@
 .nav-item:hover .dropdown-menu {
   display: block;
 }
-
+//neeche wala css image aur text ko side by side karne ke liye hai
 .container {
   display: flex; /* Use flexbox layout */
   align-items: center; /* Align items vertically */
