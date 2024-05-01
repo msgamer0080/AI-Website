@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to top, #c7faff, #e1f6fc);
+  background: linear-gradient(to bottom, #e1f6fc,#c7faff, #e1f6fc);
   margin: 0;
   padding: 0;
   height: 100vh;
